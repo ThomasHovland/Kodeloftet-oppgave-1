@@ -4,25 +4,50 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
     <header>
-
+      <!-- Logo, bedriftnavn, navigasjon på siden -->
+      <nav>
+        <ul>
+          <li>Hjem</li>
+          <li>Om meg</li>
+          <li>Prosjekter</li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <h1>Velkommen</h1>
-      <h2>til</h2>
-      <h3>nettsiden!</h3>
-      <p>Mitt navn er Thomas og jeg går på kodeloftet</p>
+      <!-- All hoved innhold -->
+      <section>
+        <h1>Velkommen</h1>
+        <p>Mitt navn er Thomas og jeg går på kodeloftet. Dette er min første nettside, og er en test for å se hvordan HTML fungerer</p>
+      </section>
+
+      <section>
+        <h2>Om meg</h2>
+        <img src="Photos/Mountain photo.jpg" alt="Spiss fjell" width="30%">
+        <img src="Photos/Bergen photo.jpg" alt="bilde av bergen" width="30%">
+        <p>Jeg er fra Bergen, og har alltid bod her. Jeg er 19 år gammel og liker å spille DND med vennene mine i helgene.</p>
+        <h3>Favoritt spill</h3>
+          <ul>
+            <li>Ghost of tsushima</li> <img src="Photos/game photo.jpg" alt="bilde av spill" width="10%">
+            <p>Ghost of tsushima er et spill om en samurai som legger fra seg sin ære, for å kunne redde folket sitt fra den mongolske invasjonen.</p>
+            <li>Red dead redemtion</li> <img src="Photos/game photo.jpg" alt="Bilde av spil" width="10%">
+            <li>League of legends</li> <img src="Photos/game photo.jpg" alt="Bilde av spill" width="10%">
+          </ul>
+      </section>
+
+      <section>
+        <h2>Om mine prosjekter</h2>
+        <p>Dette er mitt første av flere prosjekter, og ble laget i stackblitz.</p>
+      </section>
+
     </main>
     <footer>
-
+      <!-- Kreditasjon og navigasjon ut av siden -->
+      <h3>Laget av Thomas</h3>
     </footer>
   </body>
 </html>
