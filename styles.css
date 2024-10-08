@@ -1,0 +1,32 @@
+
+body {
+    margin: 50px;
+    background-color:rgb(235, 222, 206);
+}
+
+.HeadingList {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    list-style-type: square;
+    min-width: 400px;
+}
+
+section {
+    display: block;
+}
+
+#GamesList {
+    display: block;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    min-width: 600px;
+    max-width: 800px;
+}

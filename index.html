@@ -7,32 +7,31 @@
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
+
   <body>
     <header>
-      <!-- Logo, bedriftnavn, navigasjon på siden -->
       <nav>
         <ul>
-          <li>introduksjon</li>
-          <li>Om meg</li>
-          <li>Om mine prosjekter</li>
+          <li class="HeadingList">introduksjon</li>
+          <li class="HeadingList">Om meg</li>
+          <li class="HeadingList">Om mine prosjekter</li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <!-- All hoved innhold -->
       <section>
         <h1>Mitt første HTML prosjekt</h1>
         <h3>introduksjon</h3>
-        <p>Mitt navn er Thomas og jeg går på kodeloftet. Dette er min første nettside, og er en test for å se hvordan HTML fungerer</p>
+        <p>Mitt navn er Thomas og jeg går på kodeloftet. Dette er min første nettside, og er en test for å se hvordan HTML og CSS fungerer</p>
       </section>
-
+      
       <section>
         <h2>Om meg</h2>
-        <img src="Photos/Mountain photo.jpg" alt="Spiss fjell" width="400px">
-        <img src="Photos/Bergen photo.jpg" alt="bilde av bergen" width="400px">
+        <!-- husk bilder -->
         <p>Jeg er fra Bergen, og har alltid bod her. Jeg er 19 år gammel og liker å spille DND med vennene mine i helgene.</p>
         <h3>Favoritt spill</h3>
-          <ul>
+          <ul id="GamesList">
             <li>Ghost of tsushima</li> <img src="Photos/Samurai-photo.jpg" alt="bilde av spillet" width="200px">
             <p>Ghost of tsushima er et spill om en samurai som legger fra seg sin ære, for å kunne redde folket sitt fra den mongolske invasjonen.</p>
             <li>Red dead redemtion</li> <img src="Photos/Cowboy-photo.jpg" alt="Bilde av spillet" width="200px">
@@ -46,10 +45,9 @@
         <h2>Om mine prosjekter</h2>
         <p>Dette er mitt første av flere prosjekter, og ble laget i stackblitz</p>
       </section>
-
     </main>
+
     <footer>
-      <!-- Kreditasjon og navigasjon ut av siden -->
       <h3>Laget av Thomas</h3>
     </footer>
   </body>
