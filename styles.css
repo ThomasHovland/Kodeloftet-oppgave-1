@@ -1,23 +1,17 @@
-
 body {
     margin: 50px;
     background-color:rgb(235, 222, 206);
 }
 
-.HeadingList {
+#headinglist {
     display: flex;
     flex-direction: column;
     align-items: end;
-    list-style-type: square;
-    min-width: 400px;
-}
-
-section {
-    display: block;
 }
 
 #GamesList {
-    display: block;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
