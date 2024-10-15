@@ -1,26 +1,63 @@
 
-main {
-    margin: 50px;
+body {
+    margin: 0;
 }
 
+/* header */
 #headinglist {
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    list-style: none;
+    justify-content: end;
+    padding-top: 20px;
+    padding-right: 50px;
+    gap: 40px;
 }
 
-#GamesList {
+.navigation-button {
+    border-radius: 500px;
+    background-color: orangered;
+    padding: 10px;
+}
+
+/* main */
+#headline {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
-footer {
+.project-cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-p {
-    min-width: 600px;
-    max-width: 800px;
+.card {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color: lightslategray;
+}
+
+.card-text {
+    width: 40%;
+}
+
+.card-content {
+    display: flex;
+}
+
+
+/* footer */
+footer {
+    background-color: lightslategray;
+    padding: 10px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
