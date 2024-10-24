@@ -62,19 +62,3 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
-@media (max-width: 425px) {
-    .project-cards {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 80%;
-        padding: 5px;
-    }
-
-    .card-img {
-        
-    }
-}
